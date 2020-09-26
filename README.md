@@ -55,6 +55,7 @@ There have been attempts to use a long list monitoring the plant. However, due t
 
 In this list, **the most popular 20 advancements of topic** are selected. The **link** of topic directly connect to the discussion part.
 
+*Table XX. Topics of Implement of PA*
 <table border="0" cellpadding="0" cellspacing="0" width="489" class="xl677465" style="border-collapse:collapse;table-layout:fixed;width:367pt">
  <colgroup><col class="xl677465" width="90" style="mso-width-source:userset;mso-width-alt:
  3056;width:68pt">
@@ -253,6 +254,7 @@ Year |Method| Keywords | Publication | (Re-)Implementation
 | [GDHY](https://doi.pangaea.de/10.1594/PANGAEA.909132) |The Global Dataset of Historical Yield (GDHYv1.2+v1.3) offers annual time series data of 0.5-degree grid-cell yield estimates of major crops worldwide for the period 1981-2016.| maize, rice, wheat and soybean| World,1981-2016
 | Others | Updating, Please make contributions |
 
+
 **Contest of Crop Yield Prediction**
 - [2020 Syngenta Crop Challenge](https://www.syngenta-us.com/newsroom/news_release_detail.aspx?id=211564) (Syngenta, 2020)
 Using real-world crop data to develop models that can predict the performance of potential corn products.
@@ -344,6 +346,8 @@ Methods: close range remote sensing, Lidar, RADAR, Multi-Sensor Approaches, Spec
 
 
 In Remote sensing, the monitoring water stress is based on the relationships between primary plant stresses, the induced plant responses, and the multi-/hyperspectrum([Gerhards et al.2019](https://www.mdpi.com/2072-4292/11/10/1240/htm), [Jones et al.2010](https://scholar.google.com/scholar_lookup?title=Remote%20sensing%20of%20vegetation:%20principles,%20techniques,%20and%20applications&author=Jones,%20H.G.&author=Vaughan,%20R.A.&publication_year=2010) ).
+
+*Figure XX. Relationship between stresses, response, RS*
 ![enter image description here](https://www.mdpi.com/remotesensing/remotesensing-11-01240/article_deploy/html/images/remotesensing-11-01240-g001.png)
 
 *Table X. commonly applied indices and approaches for water-stress detection using the main multi-/hyperspectral remote sensing imaging techniques([Gerhards et al.2019](https://www.mdpi.com/2072-4292/11/10/1240/htm)*)
@@ -373,6 +377,7 @@ In Remote sensing, the monitoring water stress is based on the relationships bet
 
 ##  General Auxiliary Datasets for PA
 
+*Table XX. Auxiliary dataset list* 
 Type |Name |Resolution | Description | Range|
 |--|--|--|--|--|
 || [worldclim](https://www.worldclim.org/data/index.html) | WorldClim is a database of high spatial resolution global weather and climate data. | World, 1960-2018|
@@ -406,12 +411,16 @@ Meteorology| National | [Australia BOM](http://www.bom.gov.au/catalogue/anon-ftp
 
 
 ## Software programs
-There are currently a large number of software with Vegetation Index tools, and we have a brief summary of them, 
+There are currently a large number of software with PA tools, and we have a brief summary of them
+
 ### Commercial
+| Name | Description | Applications|
+|--|--|--|
+|ERDAS
+|ArcGIS
+|ENVI
+
 ### Open Source
-
-
-
 Library
 | Name | Description | Language|
 |--|--|--|
@@ -437,5 +446,3 @@ Software
  ## Note
 
 This list will be updated in time, and volunteer contributions are welcome. For questions or sharing, please feel free to  [contact us](isxzl39@gmail.com)  or make contributions.
-
--   [Topic 2. Crop Counting/ Detection](#topic-2-crop-counting-detection)
